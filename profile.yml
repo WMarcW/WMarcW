@@ -1,0 +1,45 @@
+name: Profil-Karten aktualisieren
+
+on:
+  schedule:
+    - cron: "17 4 * * *"   # täglich 05:17 Uhr (Winterzeit)
+  workflow_dispatch:         # manuell über den Actions-Tab
+  push:
+    branches: [main]
+    paths: ["scripts/**", ".github/workflows/profile.yml"]
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Stats- und Sprachen-Karten erzeugen
+        env:
+          GH_USER: ${{ github.repository_owner }}
+          # Optional: Secret PROFILE_TOKEN (classic PAT, Scope read:user) anlegen,
+          # dann zählen auch private Beiträge mit.
+          GITHUB_TOKEN: ${{ secrets.PROFILE_TOKEN || secrets.GITHUB_TOKEN }}
+        run: python3 scripts/build_cards.py
+
+      - name: Contribution-Snake erzeugen
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/snake-light.svg?color_snake=#C27A00&color_dots=#EEF1F6,#C6F0DF,#8FE0C2,#4FD1A5,#1F9E74
+            dist/snake-dark.svg?palette=github-dark&color_snake=#FFB547&color_dots=#18223A,#1D4A44,#2A7A63,#3DAA84,#4FD1A5
+
+      - name: Änderungen committen
+        run: |
+          mkdir -p assets/generated
+          mv dist/*.svg assets/generated/
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/generated
+          git diff --cached --quiet || git commit -m "Profil-Karten aktualisiert"
+          git push
