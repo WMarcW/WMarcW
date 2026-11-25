@@ -53,7 +53,7 @@ fragment Repo on Repository {
 }
 """
 
-EXCLUDE_LANGS = {"Jupyter Notebook"}  # languages to hide from the chart
+EXCLUDE_LANGS = {"Jupyter Notebook", "TeX"}  # languages to hide from the chart
 INCLUDE_CONTRIBUTED = True  # also count languages of repos you contributed to (not just your own)
 # Repos of other people you worked on – always counted, no matter how long ago (format "owner/name")
 EXTRA_REPOS = [
