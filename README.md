@@ -22,9 +22,9 @@ I'm a 7th-semester **B.Sc. Business Informatics (Wirtschaftsinformatik)** studen
 
 My work sits at the intersection of software development, process automation, and IT security. I enjoy building practical pipelines, automating workflows, and exploring how modern AI tools can solve real-world engineering problems.
 
-- 🎯 **Focus:** AI, Cybersecurity & Software Engineering
-- 🛠️ **Currently:** Working on IT compliance automation (ISO 27001 / DORA) & Python tooling
-- 🔭 **Next up:** Mandatory 3-month software/tech internship in Spring 2027
+-  **Interests:** AI, Cybersecurity & Software Engineering
+-  **Currently:** Working on IT compliance automation (ISO 27001 / DORA) & Python tooling
+-  **Next up:** Mandatory 3-month software/tech internship in Spring 2027
 
 </td>
 <td width="42%" valign="top">
@@ -35,7 +35,7 @@ My work sits at the intersection of software development, process automation, an
 |---|---|
 | 🎓 | B.Sc. Business Informatics @ University of Rostock |
 | 📍 | Rostock, Germany |
-| 💬 | German, English |
+| 💬 | German, English, Portuguese |
 | ⭐ | AI, Cybersecurity, Software Engineering |
 | 📫 | marcemmerz21@gmail.com |
 
