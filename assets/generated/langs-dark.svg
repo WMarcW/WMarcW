@@ -19,5 +19,5 @@
 <g class="r" style="animation-delay:0.24s"><circle cx="219" cy="133" r="5" fill="#336790"/><text x="232" y="138" class="f" font-size="14" fill="#EEF2F8">PLpgSQL</text><text x="386" y="138" class="m" font-size="13" fill="#8B97AD" text-anchor="end">5.4%</text></g>
 <g class="r" style="animation-delay:0.32s"><circle cx="29" cy="163" r="5" fill="#e34c26"/><text x="42" y="168" class="f" font-size="14" fill="#EEF2F8">HTML</text><text x="196" y="168" class="m" font-size="13" fill="#8B97AD" text-anchor="end">2.3%</text></g>
 <g class="r" style="animation-delay:0.40s"><circle cx="219" cy="163" r="5" fill="#384d54"/><text x="232" y="168" class="f" font-size="14" fill="#EEF2F8">Dockerfile</text><text x="386" y="168" class="m" font-size="13" fill="#8B97AD" text-anchor="end">0.1%</text></g>
-<text x="24" y="262" class="m" font-size="11" fill="#8B97AD">by code size · own public repos</text>
+<text x="24" y="262" class="m" font-size="11" fill="#8B97AD">by code size · own repos, no forks</text>
 </svg>
