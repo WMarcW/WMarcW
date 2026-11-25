@@ -60,23 +60,22 @@ My work sits at the intersection of software development, process automation, an
 <tr>
 <td width="50%" valign="top">
 
-####  Automated Content Pipeline
-Modular Python pipeline for extracting, transcribing, and subtitling short-form video clips locally using Whisper, Ollama, and FFmpeg.
-
-`Python` `Whisper` `FFmpeg`
-
-➜ <a href="https://github.com/WMarcW/content_pipeline">View Repository</a>
-
-</td>
-<td width="50%" valign="top">
-
-####  BeliBase Data Pipeline
+#### 📚 BeliBase Data Pipeline
 Automated academic corpus builder integrating DOI regex extraction, OpenAlex/CrossRef enrichment, Playwright retries, and SQLite storage.
 
 `Python` `Playwright` `SQLite`
 
 ➜ <a href="https://github.com/WMarcW/belibase_ap2">View Repository</a>
 
+</td>
+<td width="50%" valign="top">
+
+#### 🤖 Hunt the Wumpus – Multi-Agent System
+Cooperative multi-agent simulation in a 20×20 grid world where three autonomous agents coordinate via a shared message bus to locate gold while avoiding hazards. Implemented a hybrid rule-based and Deep Q-Network (PyTorch) agent alongside Q-learning and frontier-exploration peers, visualized in Pygame.
+
+`Python` `PyTorch` `Pygame`
+
+➜ <a href="https://github.com/radwat-40/Wumpus">View Repository</a>
 </td>
 </tr>
 </table>
