@@ -16,7 +16,7 @@
 <tr>
 <td width="58%" valign="top">
 
-### 👋 Hi, I'm Marc!
+###  Hi, I'm Marc!
 
 I'm a 7th-semester **B.Sc. Business Informatics (Wirtschaftsinformatik)** student at the **University of Rostock** and a Working Student in IT Governance & Compliance at SkenData GmbH.
 
@@ -29,7 +29,7 @@ My work sits at the intersection of software development, process automation, an
 </td>
 <td width="42%" valign="top">
 
-### ⚡ At a Glance
+###  At a Glance
 
 | | |
 |---|---|
@@ -43,7 +43,7 @@ My work sits at the intersection of software development, process automation, an
 </tr>
 </table>
 
-### 🧰 Tech Stack & Tools
+###  Tech Stack & Tools
 
 <p>
   <b>Languages & Frameworks</b><br>
@@ -60,7 +60,7 @@ My work sits at the intersection of software development, process automation, an
 <tr>
 <td width="50%" valign="top">
 
-#### 🎬 Automated Content Pipeline
+####  Automated Content Pipeline
 Modular Python pipeline for extracting, transcribing, and subtitling short-form video clips locally using Whisper, Ollama, and FFmpeg.
 
 `Python` `Whisper` `FFmpeg`
@@ -70,7 +70,7 @@ Modular Python pipeline for extracting, transcribing, and subtitling short-form 
 </td>
 <td width="50%" valign="top">
 
-#### 📚 BeliBase Data Pipeline
+####  BeliBase Data Pipeline
 Automated academic corpus builder integrating DOI regex extraction, OpenAlex/CrossRef enrichment, Playwright retries, and SQLite storage.
 
 `Python` `Playwright` `SQLite`
@@ -81,7 +81,7 @@ Automated academic corpus builder integrating DOI regex extraction, OpenAlex/Cro
 </tr>
 </table>
 
-### 📊 GitHub Activity
+###  GitHub Activity 📊
 
 <!-- Cards are regenerated daily by .github/workflows/profile.yml -->
 <p>
