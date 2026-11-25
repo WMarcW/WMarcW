@@ -32,7 +32,7 @@ query($login: String!) {
       totalIssueContributions
       contributionCalendar { totalContributions }
     }
-    repositories(ownerAffiliations: OWNER, isFork: false, first: 100, privacy: PUBLIC) {
+    repositories(ownerAffiliations: OWNER, isFork: false, first: 100) {
       totalCount
       nodes {
         stargazerCount
@@ -107,7 +107,7 @@ def stats_svg(s: dict, t: dict) -> str:
         ("Commits", s["commits"]),
         ("Pull Requests", s["prs"]),
         ("Issues", s["issues"]),
-        ("Public Repos", s["repos"]),
+        ("Repositories", s["repos"]),
         ("Stars", s["stars"]),
     ]
     body = []
@@ -144,7 +144,7 @@ def langs_svg(s: dict, t: dict) -> str:
         )
     rows = (len(s["langs"]) + 1) // 2
     h = max(280, 108 + rows * 30 + 34)
-    body.append(f'<text x="24" y="{h - 18}" class="m" font-size="11" fill="{t["muted"]}">by code size · own public repos</text>')
+    body.append(f'<text x="24" y="{h - 18}" class="m" font-size="11" fill="{t["muted"]}">by code size · own repos, no forks</text>')
     return card(t, "Top Languages", "\n".join(body), h)
 
 
