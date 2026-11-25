@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="280" viewBox="0 0 420 280" role="img" aria-label="GitHub Stats">
+<style>.f{font-family:'Segoe UI',-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}.m{font-family:ui-monospace,'SF Mono',Menlo,Consolas,monospace}
+.r{animation:in .6s ease-out both}@keyframes in{from{opacity:0;transform:translateX(-6px)}to{opacity:1}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+<rect x=".5" y=".5" width="419" height="279" rx="14" fill="#FFFFFF" stroke="#D8DEE8"/>
+<rect x="24" y="26" width="4" height="18" rx="2" fill="#C27A00"/>
+<text x="38" y="41" class="f" font-size="17" font-weight="700" fill="#1B2233">GitHub Stats</text>
+<g class="r" style="animation-delay:0.00s"><text x="24" y="82" class="f" font-size="14" fill="#5B6678">Contributions (last year)</text><text x="396" y="82" class="m" font-size="15" font-weight="700" fill="#1B2233" text-anchor="end">24</text><path d="M24 91H396" stroke="#EEF1F6"/></g>
+<g class="r" style="animation-delay:0.08s"><text x="24" y="110" class="f" font-size="14" fill="#5B6678">Commits</text><text x="396" y="110" class="m" font-size="15" font-weight="700" fill="#1B2233" text-anchor="end">22</text><path d="M24 119H396" stroke="#EEF1F6"/></g>
+<g class="r" style="animation-delay:0.16s"><text x="24" y="138" class="f" font-size="14" fill="#5B6678">Pull Requests</text><text x="396" y="138" class="m" font-size="15" font-weight="700" fill="#1B2233" text-anchor="end">0</text><path d="M24 147H396" stroke="#EEF1F6"/></g>
+<g class="r" style="animation-delay:0.24s"><text x="24" y="166" class="f" font-size="14" fill="#5B6678">Issues</text><text x="396" y="166" class="m" font-size="15" font-weight="700" fill="#1B2233" text-anchor="end">0</text><path d="M24 175H396" stroke="#EEF1F6"/></g>
+<g class="r" style="animation-delay:0.32s"><text x="24" y="194" class="f" font-size="14" fill="#5B6678">Public Repos</text><text x="396" y="194" class="m" font-size="15" font-weight="700" fill="#1B2233" text-anchor="end">5</text><path d="M24 203H396" stroke="#EEF1F6"/></g>
+<g class="r" style="animation-delay:0.40s"><text x="24" y="222" class="f" font-size="14" fill="#5B6678">Stars</text><text x="396" y="222" class="m" font-size="15" font-weight="700" fill="#1B2233" text-anchor="end">1</text><path d="M24 231H396" stroke="#EEF1F6"/></g>
+<text x="24" y="262" class="m" font-size="11" fill="#5B6678">updated Nov 25, 2026</text>
+</svg>
