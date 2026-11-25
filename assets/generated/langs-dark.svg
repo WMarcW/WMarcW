@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="280" viewBox="0 0 420 280" role="img" aria-label="Meistgenutzte Sprachen">
+<style>.f{font-family:'Segoe UI',-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}.m{font-family:ui-monospace,'SF Mono',Menlo,Consolas,monospace}
+.r{animation:in .6s ease-out both}@keyframes in{from{opacity:0;transform:translateX(-6px)}to{opacity:1}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+<rect x=".5" y=".5" width="419" height="279" rx="14" fill="#0D1320" stroke="#25304A"/>
+<rect x="24" y="26" width="4" height="18" rx="2" fill="#FFB547"/>
+<text x="38" y="41" class="f" font-size="17" font-weight="700" fill="#EEF2F8">Meistgenutzte Sprachen</text>
+<clipPath id="bar"><rect x="24" y="64" width="372" height="10" rx="5"/></clipPath><g clip-path="url(#bar)">
+<rect x="24.0" y="64" width="166.7" height="10" fill="#3178c6"/>
+<rect x="190.2" y="64" width="145.2" height="10" fill="#3572A5"/>
+<rect x="334.9" y="64" width="32.5" height="10" fill="#663399"/>
+<rect x="366.8" y="64" width="20.6" height="10" fill="#336790"/>
+<rect x="386.9" y="64" width="9.1" height="10" fill="#e34c26"/>
+<rect x="395.5" y="64" width="1.0" height="10" fill="#384d54"/>
+</g>
+<g class="r" style="animation-delay:0.00s"><circle cx="29" cy="103" r="5" fill="#3178c6"/><text x="42" y="108" class="f" font-size="14" fill="#EEF2F8">TypeScript</text><text x="196" y="108" class="m" font-size="13" fill="#8B97AD" text-anchor="end">44.7 %</text></g>
+<g class="r" style="animation-delay:0.08s"><circle cx="219" cy="103" r="5" fill="#3572A5"/><text x="232" y="108" class="f" font-size="14" fill="#EEF2F8">Python</text><text x="386" y="108" class="m" font-size="13" fill="#8B97AD" text-anchor="end">38.9 %</text></g>
+<g class="r" style="animation-delay:0.16s"><circle cx="29" cy="133" r="5" fill="#663399"/><text x="42" y="138" class="f" font-size="14" fill="#EEF2F8">CSS</text><text x="196" y="138" class="m" font-size="13" fill="#8B97AD" text-anchor="end">8.6 %</text></g>
+<g class="r" style="animation-delay:0.24s"><circle cx="219" cy="133" r="5" fill="#336790"/><text x="232" y="138" class="f" font-size="14" fill="#EEF2F8">PLpgSQL</text><text x="386" y="138" class="m" font-size="13" fill="#8B97AD" text-anchor="end">5.4 %</text></g>
+<g class="r" style="animation-delay:0.32s"><circle cx="29" cy="163" r="5" fill="#e34c26"/><text x="42" y="168" class="f" font-size="14" fill="#EEF2F8">HTML</text><text x="196" y="168" class="m" font-size="13" fill="#8B97AD" text-anchor="end">2.3 %</text></g>
+<g class="r" style="animation-delay:0.40s"><circle cx="219" cy="163" r="5" fill="#384d54"/><text x="232" y="168" class="f" font-size="14" fill="#EEF2F8">Dockerfile</text><text x="386" y="168" class="m" font-size="13" fill="#8B97AD" text-anchor="end">0.1 %</text></g>
+<text x="24" y="262" class="m" font-size="11" fill="#8B97AD">nach Codegröße, eigene öffentliche Repos</text>
+</svg>
