@@ -6,14 +6,14 @@
 <rect x="24" y="26" width="4" height="18" rx="2" fill="#C27A00"/>
 <text x="38" y="41" class="f" font-size="17" font-weight="700" fill="#1B2233">Top Languages</text>
 <clipPath id="bar"><rect x="24" y="64" width="372" height="10" rx="5"/></clipPath><g clip-path="url(#bar)">
-<rect x="24.0" y="64" width="179.8" height="10" fill="#3572A5"/>
-<rect x="203.3" y="64" width="143.5" height="10" fill="#e34c26"/>
-<rect x="346.2" y="64" width="28.5" height="10" fill="#3178c6"/>
-<rect x="374.3" y="64" width="13.5" height="10" fill="#4F5D95"/>
+<rect x="24.0" y="64" width="180.1" height="10" fill="#3572A5"/>
+<rect x="203.6" y="64" width="143.2" height="10" fill="#e34c26"/>
+<rect x="346.3" y="64" width="28.5" height="10" fill="#3178c6"/>
+<rect x="374.3" y="64" width="13.4" height="10" fill="#4F5D95"/>
 <rect x="387.2" y="64" width="5.9" height="10" fill="#663399"/>
 <rect x="392.6" y="64" width="3.9" height="10" fill="#336790"/>
 </g>
-<g class="r" style="animation-delay:0.00s"><circle cx="29" cy="103" r="5" fill="#3572A5"/><text x="42" y="108" class="f" font-size="14" fill="#1B2233">Python</text><text x="196" y="108" class="m" font-size="13" fill="#5B6678" text-anchor="end">48.2%</text></g>
+<g class="r" style="animation-delay:0.00s"><circle cx="29" cy="103" r="5" fill="#3572A5"/><text x="42" y="108" class="f" font-size="14" fill="#1B2233">Python</text><text x="196" y="108" class="m" font-size="13" fill="#5B6678" text-anchor="end">48.3%</text></g>
 <g class="r" style="animation-delay:0.08s"><circle cx="219" cy="103" r="5" fill="#e34c26"/><text x="232" y="108" class="f" font-size="14" fill="#1B2233">HTML</text><text x="386" y="108" class="m" font-size="13" fill="#5B6678" text-anchor="end">38.4%</text></g>
 <g class="r" style="animation-delay:0.16s"><circle cx="29" cy="133" r="5" fill="#3178c6"/><text x="42" y="138" class="f" font-size="14" fill="#1B2233">TypeScript</text><text x="196" y="138" class="m" font-size="13" fill="#5B6678" text-anchor="end">7.5%</text></g>
 <g class="r" style="animation-delay:0.24s"><circle cx="219" cy="133" r="5" fill="#4F5D95"/><text x="232" y="138" class="f" font-size="14" fill="#1B2233">PHP</text><text x="386" y="138" class="m" font-size="13" fill="#5B6678" text-anchor="end">3.5%</text></g>
